@@ -13,13 +13,13 @@ The hook allows you to dynamically adjust UI elements based on the screen size a
 You can install the package via npm:
 
 ```bash
-npm install @adrihfly/screen-detector-hook
+npm install @nimibyte/screen-detector-hook
 ```
 
 Or via yarn:
 
 ```bash
-yarn add @adrihfly/screen-detector-hook
+yarn add @nimibyte/screen-detector-hook
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ Here’s how to use the useScreenDetector hook:
 
 ```jsx
 import React from 'react';
-import { useScreenDetector } from '@adrihfly/use-screen-detector';
+import { useScreenDetector } from '@nimibyte/use-screen-detector';
 
 const MyComponent = () => {
   const { screen, landscape } = useScreenDetector({

@@ -1,5 +1,5 @@
 {
-  "name": "@adrihfly/screen-detector-hook",
+  "name": "@nimibyte/screen-detector-hook",
   "version": "1.1.0-beta.4",
   "description": "A useful react hook for handle screen position and size",
   "main": "dist/index.cjs.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrihle/screen-detector-hook.git"
+    "url": "git+https://github.com/nimibyte/screen-detector-hook.git"
   },
   "keywords": [
     "react",
@@ -29,12 +29,12 @@
     "breakpoints",
     "screen"
   ],
-  "author": "Adrian Lopez Espinosa",
-  "license": "ISC",
+  "author": "Nimibyte Labs <info@nimibyte.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adrihle/screen-detector-hook/issues"
+    "url": "https://github.com/nimibyte/screen-detector-hook/issues"
   },
-  "homepage": "https://github.com/adrihle/screen-detector-hook#readme",
+  "homepage": "https://github.com/nimibyte/screen-detector-hook#readme",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
