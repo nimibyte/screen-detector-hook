@@ -1,0 +1,34 @@
+# LLM Index: @nimibyte/screen-detector-hook
+
+Project: @nimibyte/screen-detector-hook
+Homepage: https://github.com/nimibyte/screen-detector-hook
+Repository: https://github.com/nimibyte/screen-detector-hook
+Package: https://www.npmjs.com/package/@nimibyte/screen-detector-hook
+License: MIT
+
+Primary intent: React hook for runtime breakpoint and orientation detection.
+
+Best for:
+- Determining current `mobile`/`tablet`/`desktop` screen class in React components
+- Reacting to viewport orientation changes (`landscape`)
+- Driving responsive rendering logic from JavaScript/TypeScript
+
+Core API:
+- useScreenDetector(params)
+- UseScreenDetectorParams
+- Screen
+
+Read first:
+- README.md
+- README.ai.md
+
+Integration notes:
+- Import `useScreenDetector` from `@nimibyte/screen-detector-hook`
+- Provide at least one breakpoint in `breakpoints`
+- Use `detector: true` to update on window resize
+- Read `screen` and `landscape` from the hook return value
+
+Non-goals:
+- CSS media query replacement for styling-only cases
+- Non-React runtime support
+- Advanced matchMedia query management toolkit

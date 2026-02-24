@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-type Screen = 'mobile' | 'tablet' | 'desktop';
+export type Screen = 'mobile' | 'tablet' | 'desktop';
 type Width = number;
 
-type UseScreenDetectorParams = {
+export type UseScreenDetectorParams = {
   breakpoints: Partial<Record<Screen, Width>>;
   detector?: boolean;
 };
